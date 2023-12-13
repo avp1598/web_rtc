@@ -4,10 +4,10 @@ let remoteStream;
 let servers = {
   iceServers: [
     {
-      urls: "stun:206.189.141.42:3478",
+      urls: "stun:139.59.82.84:3478",
     },
     {
-      urls: "turn:206.189.141.42:3478",
+      urls: "turn:139.59.82.84:3478",
       username: "user",
       credential: "secret",
     },
