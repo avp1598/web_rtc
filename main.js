@@ -34,7 +34,7 @@ let publicServers = {
   ],
 };
 
-let peerConnection = new RTCPeerConnection(publicServers);
+let peerConnection = new RTCPeerConnection(servers);
 
 let init = async () => {
   console.log("Init triggered");
